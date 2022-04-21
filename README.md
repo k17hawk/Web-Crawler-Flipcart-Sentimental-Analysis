@@ -1,4 +1,4 @@
-# flipkart-reviewAnalysis-with-reviewAnalysis-bert
+# flipkart-reviewAnalysis-with-bert-model
 
 This is a simple project of web scrapping using BS4 python where people can scrap the reviews along with product name and price and reviewer using this app.In addition the bert model has been used without hyper parameter tunning to analysis the review as positive or negative.
 Some sneak pelek of Web scrapping:-
