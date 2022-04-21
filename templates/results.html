@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block body %}
+  <div class="table-users">
+   <div class="header">Reviews</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>Product</th>
+         <th>Name</th>
+         <th>Rating</th>
+         <th>Comment Heading</th>
+          <th>Price INR</th>
+         <th width="230">Comments</th>
+          <th >Sentiment</th>
+      </tr>
+         {% for review in reviews %}
+      <tr>
+          <td>{{review['Product']}}</td>
+         <td>{{review['Name']}}</td>
+         <td>{{review['Rating']}}</td>
+         <td>{{review['CommentHead']}}</td>
+          <td>{{review['product price']}}</td>
+         <td>{{review['Comment']}} </td>
+          <td>{{review['Sentiment']}} </td>
+       {% endfor %}
+   </table>
+</div>
+
+{% endblock %}

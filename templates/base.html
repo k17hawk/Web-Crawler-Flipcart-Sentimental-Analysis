@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Review Scrapper</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+
+		<header>
+			<div class="head_container">
+				<div class="logo">
+
+				</div>
+				<div class="menu" id="myTopnav">
+					<ul>
+						<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;</a>
+						<li><a href="/">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="/">Home</a>
+			  <p style="color: #1c3664; text-align: center">kumardahal536@gmail.com</p>
+		</div>
+	</head>
+	<body>
+    {% block body %}{% endblock %}
+	</body>
+</html>
+
