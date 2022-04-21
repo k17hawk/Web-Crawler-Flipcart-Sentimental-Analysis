@@ -7,4 +7,4 @@ Some sneak pelek of Web scrapping:-
 <img src="https://github.com/roshikdahal/Flipkart-review_sentimentalAnalysis-bert/blob/main/Screenshot%20from%202022-04-21%2017-39-37.png" width="100%"/>
 
 
-Beacuse of size of model ,it haven't been uploaded on github
+Beacuse of size of model ,it hasn't been uploaded on github
